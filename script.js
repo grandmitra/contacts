@@ -11,7 +11,7 @@ const form = document.getElementById('contact-form');
       };
 
       try {
-        const response = await fetch('YOUR_WEB_APP_URL', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbzarjxR0HzP1BQFdaewpHZgkDJF_8CekXfsZqmXDmzE2f4vk4Tu3yZobKk_f2zMazQt/exec', {
           method: 'POST',
           body: JSON.stringify(formData)
         });
